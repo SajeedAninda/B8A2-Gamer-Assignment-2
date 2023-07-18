@@ -9,10 +9,6 @@
 }
 
 /* STYLES FOR THE HEADER SECTION  */
-header {
-    height: 100vh;
-}
-
 header nav {
     height: 15vh;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -94,8 +90,8 @@ header nav {
 /* STYLES FOR BANNER SECTION  */
 .banner-section {
     background: url("../images/Group\ 14.png");
-    background-position: left;
-    background-size: 600px 100%;
+    background-position: left bottom;
+    background-size: 50% 100%;
     background-repeat: no-repeat;
 }
 
@@ -177,16 +173,76 @@ header nav {
     transition: 0.2s;
 }
 
-
-
-
-
-
-
 .banner-image {
     width: 50%;
 }
 
 .banner-image img {
     width: 100%;
+}
+
+/* STYLES FOR GAMER SECTION  */
+.gamer-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.gamer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    gap: 40px;
+}
+
+.gamer-image {
+    width: 60%;
+}
+
+.gamer-image img {
+    width: 100%;
+}
+
+.gamer-description {
+    width: 40%;
+    text-align: right;
+}
+
+.gamer-description h2 {
+    text-align: right;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.gamer-description p {
+    color: #534C64;
+    text-align: right;
+    font-size: 0.9rem;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.gamer-description button{
+    padding: 13px 25px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.gamer-description .purpose h3{
+    color: #534C64;
+font-size: 1.5rem;
+font-weight: 700;
+}
+.gamer-description .purpose h3 small{
+    font-weight: 500;
+    font-size: 1rem;
 }
