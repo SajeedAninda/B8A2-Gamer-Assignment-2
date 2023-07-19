@@ -1155,3 +1155,36 @@ footer {
         gap: 25px;
     }
 }
+
+@media screen and (min-width:769px) and (max-width: 1024px){
+    .nav-container {
+        max-width: 770px;
+    }
+    .banner-container {
+        max-width: 770px;
+    }   
+    .gamer-container {
+        max-width: 770px;
+    }
+    .online-games-section {
+        max-width: 770px;
+    }
+    .card-container {
+        max-width: 300px;
+    }
+    .play-section {
+        max-width: 770px;
+    }
+    .second-play-section {
+        max-width: 770px;
+    }
+    .career-container {
+        max-width: 770px;
+    }
+    .arcade-container {
+        max-width: 770px;
+    }
+    .footer-container {
+        max-width: 770px;
+    }
+}
