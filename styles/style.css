@@ -1036,6 +1036,7 @@ footer {
         text-align: center;
         font-size: 0.9rem;
     }
+
     .play-section .play-container {
         flex-direction: column;
         gap: 50px;
@@ -1153,7 +1154,8 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
     }
-    .footer-text p{
+
+    .footer-text p {
         font-size: 0.7rem;
     }
 }
