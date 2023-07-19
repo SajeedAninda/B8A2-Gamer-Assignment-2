@@ -923,7 +923,7 @@ footer {
     }
 }
 
-/* STYLES TO MAKE THE WEBSITE RESPONSIVE FOR MOBILE DEVICES */
+/* STYLES TO MAKE THE WEBSITE RESPONSIVE FOR TABLET DEVICES */
 @media screen and (min-width:426px) and (max-width: 768px) {
     header nav {
         height: auto;
