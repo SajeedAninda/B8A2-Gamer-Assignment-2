@@ -382,6 +382,11 @@ header nav {
     -webkit-text-fill-color: transparent;
 }
 
+.play-description p{
+    color: #534C64;
+    margin-top: 15px;
+}
+
 .play-images {
     width: 50%;
     position: relative;
@@ -426,11 +431,22 @@ header nav {
     color: #0B0223;
 }
 
+.second-play-description p{
+    color: #534C64;
+    margin-top: 15px;
+}
+
 .second-play-container h2 span {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.second-play-description p {
+    color: #534C64;
+    font-size: 1rem;
+    line-height: 17px;
 }
 
 .second-play-images {
